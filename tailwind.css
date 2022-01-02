@@ -13,4 +13,7 @@
         height: calc(100% - theme('spacing.24'));
         @apply flex
     }
+    .scrollable {
+        scroll-behavior: smooth;
+    }
 }

@@ -20,7 +20,10 @@ React + Tailwind serisinin bu bölümünde spotify'ın web versiyonunu birlikte 
    - Ses dosyalarını yönetmek için `react-use` paketinin kullanımı
    - Player range slider için `react-range` paketinin kullanımı
    - State'leri global olarak yönetmek için `redux` kullanımı
-4. bölüm hazırlanacak....
+4. bölümde öğrenecekleriniz
+   - Search bölümünü kodluyoruz
+   - Drag scrollbar paketini kurup ufak bir carousel hazırlıyoruz
+   - Bolca tailwind kullanıyoruz :)
 5. bölüm hazırlanacak....
 6. bölüm hazırlanacak....
 
