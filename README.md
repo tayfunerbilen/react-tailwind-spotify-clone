@@ -24,7 +24,10 @@ React + Tailwind serisinin bu bölümünde spotify'ın web versiyonunu birlikte 
    - Search bölümünü kodluyoruz
    - Drag scrollbar paketini kurup ufak bir carousel hazırlıyoruz
    - Bolca tailwind kullanıyoruz :)
-5. bölüm hazırlanacak....
+5. bölümde öğrenecekleriniz
+   - Full Screen Player yönetimi
+   - Full Screen'e özel hook'un kullanımı
+   - Bolca tailwind :)
 6. bölüm hazırlanacak....
 
 ## Demo

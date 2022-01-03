@@ -1,3 +1,13 @@
+const LogoIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path
+				d="M8 0a8 8 0 100 16A8 8 0 008 0zm3.903 11.532a.695.695 0 01-.947.267 8.299 8.299 0 00-3.237-1.02 8.318 8.318 0 00-3.384.351.696.696 0 01-.423-1.326 9.668 9.668 0 013.948-.409 9.703 9.703 0 013.777 1.19.697.697 0 01.266.947zm.958-2.429a.695.695 0 01-.938.295 10.87 10.87 0 00-3.944-1.177 10.828 10.828 0 00-4.127.367.695.695 0 11-.386-1.336 12.264 12.264 0 014.653-.415c1.566.159 3.062.606 4.447 1.327.34.178.473.598.295.939zm.346-2.022a.69.69 0 01-.31-.073 13.454 13.454 0 00-4.659-1.345 13.423 13.423 0 00-4.843.383.695.695 0 11-.359-1.344 14.85 14.85 0 015.343-.423c1.802.183 3.532.682 5.139 1.484a.695.695 0 01-.311 1.318z"
+				fill="currentColor"/>
+		</svg>
+	)
+}
+
 const HomeIcon = ({size}) => {
 	return (
 		<svg viewBox="0 0 512 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
@@ -187,6 +197,16 @@ const FullScreenIcon = ({size}) => {
 	)
 }
 
+const FullScreenOffIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 24 24" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path
+				d="M22.125 2.582l-.707-.707-4.273 4.273L15 4.001v5h5l-2.146-2.146 4.271-4.273zM6.147 17.146l-4.273 4.272.707.707 4.273-4.272L9 19.999v-5H4l2.147 2.147z"
+				fill="currentColor"/>
+		</svg>
+	)
+}
+
 const PictureInPictureIcon = ({size}) => {
 	return (
 		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
@@ -271,6 +291,7 @@ const Icon = ({name, size = 24}) => {
 		shuffle: ShuffleIcon,
 		queue: QueueIcon,
 		fullScreen: FullScreenIcon,
+		fullScreenOff: FullScreenOffIcon,
 		pictureInPicture: PictureInPictureIcon,
 		device: DeviceIcon,
 		volumeMuted: VolumeMutedIcon,
@@ -278,7 +299,8 @@ const Icon = ({name, size = 24}) => {
 		volumeNormal: VolumeNormalIcon,
 		volumeFull: VolumeFullIcon,
 		lyrics: LyricsIcon,
-		arrowLeft: ArrowLeftIcon
+		arrowLeft: ArrowLeftIcon,
+		logo: LogoIcon
 	}
 
 	const Component = icons[name]
